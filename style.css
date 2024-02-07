@@ -1,0 +1,66 @@
+/*Temperatura*/
+
+.bg-gradient{
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(30, 161, 184);
+}
+
+h1 {
+  margin-top: 0;
+}
+
+select,button {
+  font-size: 1.2rem;
+  margin: 10px;
+  
+}
+
+#result {
+  display: none;
+  margin-top: 20px;
+ 
+}
+
+#result div {
+  font-size: 1.5rem;
+  margin: 5px;
+  
+}
+
+/*Relogio*/
+
+.bg-gradient-2 h1{
+  
+}
+
+.bg-gradient-2 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(236, 149, 166);
+}
+
+#clock {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+#timezones {
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 0px;
+}
+
+#timezone-select {
+  margin-left: 10px;
+}
+
